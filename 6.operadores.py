@@ -32,14 +32,15 @@ print (len("holaaa") == len("sergio")) #Para que cuente caracteres se debe
 
 #Operadores Lógicos
 print (True and True) # Esto es igual a TRUE
-print (True and False) # Esto es igual a False
-print (False and True) # Esto es igual a False
-print (False and False) # Esto es igual a False
+print (True and False) # Esto es igual a FALSE
+print (False and True) # Esto es igual a FALSE
+print (False and False) # Esto es igual a FALSE
 print (True or True)   # Esto es igual a TRUE
 print (True or False) # Esto es igual a TRUE
 print (False or True) # Esto es igual a TRUE
-print (False or False) # Esto es igual a False
-print(not(True))
+print (False or False) # Esto es igual a FALSE
+print(not(True)) #Invierte el resultado en este caso es FALSE
+
 
 
 #Ojo con la lógica booleanaa

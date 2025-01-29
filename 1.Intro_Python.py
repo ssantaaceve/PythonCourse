@@ -7,3 +7,6 @@
 #Segundo lenguaje de programacion que mas se utiliza
 #Que es un API? :Es una forma de generar una conexion entre varias capas de programacion
 print ("hola mundo")
+
+
+#Lenguage orientado a objetos

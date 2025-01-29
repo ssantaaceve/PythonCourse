@@ -25,3 +25,6 @@ my_list = [35, 24, 62, 52, 30, 30, 17]
     
 for element in my_list:
     print (element)
+    #Element no es una variable resevada
+    #Imprime los valores
+

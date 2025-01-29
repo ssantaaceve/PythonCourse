@@ -18,4 +18,4 @@ prueba = True
 print (type (saludo)) #Un str
 print (type (numerico)) #Un int
 print (type (Decimal)) #Un Float
-print (type (prueba)) #Un int
+print (type (prueba)) #Un bool 
