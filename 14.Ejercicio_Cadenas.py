@@ -44,5 +44,45 @@ print (info_correo[:info_correo.find('@')])
 
 
 
+#Ejercicio 9
+#Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
+
+date_of_birthday = input('En qué fecha naciste? escribe tu respuesta con el siguiente formato dd/mm/aaaa:  ')
+
+if len(date_of_birthday) != 10:
+    day, month, year = date_of_birthday.split('/')
+    print (f'la fecha de nacimiento es \n DÍA: {day.zfill(2)}\n MES: {month.zfill(2)} \n AÑO: {year}')
+else:
+    print (f'la fecha de nacimiento es \n DÍA:{date_of_birthday[:2]} \n MES: {date_of_birthday[3:5]}  \n AÑO: {date_of_birthday[-4:]}')
 
 
+
+
+
+#Ejercicio 10
+#Escribir un programa que pregunte por consola por los productos de una cesta de la compra, separados por comas, y muestre por pantalla cada uno de los productos en una línea distinta.
+
+productos_de_compra = input('menciona los productos comporados y recuerda poner una coma (,) por cada prodcuto: ')
+
+print(productos_de_compra.replace(',', '\n'))
+
+
+
+
+
+
+
+
+
+
+#Ejercicio 11
+#Escribir un programa que pregunte el nombre el un producto, su precio y un número de unidades y muestre por pantalla una cadena con el nombre del producto seguido de su precio unitario con 6 dígitos enteros y 2 decimales, el número de unidades con tres dígitos y el coste total con 8 dígitos enteros y 2 decimales.
+
+nombre_producto = input('cuál es el nombre del producto?: ')
+precio_producto = float(input('cuál es el precio del producto?: '))
+Cantidad_unidades = int(input('cuál es la cantidad  del producto?: '))
+
+
+costo_productos= precio_producto * Cantidad_unidades
+
+print (f'el producto {nombre_producto} tiene un precio de {precio_producto:6.2f} y se vendieren un total de {Cantidad_unidades} unidades. lo que quiere decir que el costo total del lote vendido es: {costo_productos:8.2f} ')
