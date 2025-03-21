@@ -12,4 +12,13 @@ for i in range(0,10):
 age_user = int(input('type your age'))
 
 for i in range (0,age_user):
-    print (i)
+    print (i + 1)
+
+
+#Ejercicio 3
+#Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
+
+numero_user = int(input('type any positive number '))
+for i in range (0, numero_user):
+    if i % 2 !=0:
+        print(f'{i}, ')
