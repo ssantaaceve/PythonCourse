@@ -15,4 +15,3 @@ incomesTatiana():
 #register sergio incomes
 def register_any_expenses ():
     
-    
